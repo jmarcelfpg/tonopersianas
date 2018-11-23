@@ -1,5 +1,7 @@
 import Call from '@material-ui/icons/Call';
+import Home from '@material-ui/icons/Home';
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from './Logo_black_t67_256x256.png';
 import "./ToolBar.css"
@@ -17,7 +19,8 @@ export default class ToolBar extends React.Component {
                         <li><a target="blank" href="https://www.instagram.com/explore/locations/671096006432615/tono-persianas"><img src="/icons/social-media/instagram/drawable-hdpi/ic_instagram_black_36dp.png" alt="" /></a></li>
                     </ul>
                     <ul className="tool-bar-navigation">
-                        <li><Call/></li>
+                        <Link to="/"><Home/></Link>
+                        <Link to="/contact"><Call/></Link>
                     </ul>
                     {/* <nav className="tool-bar-navigation">
                         <a href="#" >Home</a>

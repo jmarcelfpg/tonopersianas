@@ -9,15 +9,15 @@ import './App.css';
 class App extends React.Component {
   public render() {
     return (
-      <div className="app">
-        <ToolBar />
-        <BrowserRouter>
-          <div>
-            <Route path="/" exact={true} > <Home /> </Route>
-            <Route path="/contact"  ><Contact /> </Route>
+      <BrowserRouter>
+        <div className="app">
+          <ToolBar />
+          <div className="screen">
+            <Route path="/" exact={true} component={Home} />
+            <Route path="/contact" component={Contact} />
           </div>
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
