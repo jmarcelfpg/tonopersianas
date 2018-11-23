@@ -1,0 +1,26 @@
+[
+    {
+        "header": "Linea ESSENTIAL",
+        "info": "*Economica. \n*Amplia variedad y colores vistosos. \n*Ideal para ambientes con gran iluminacion. \nsala comedor oficina",
+        "srcImage": "/images/products/lines/essential/sunblind_line_essential.jpg",
+        "title": "Linea ESSENTIAL"
+    },
+    {
+        "header": "Linea WOODEN",
+        "info": "*Diseño de tela con textura. \n*Nivel de opacidad intermedio. \n*Ideal para cualquier ambientes residencial.",
+        "srcImage": "/images/products/lines/wooden/sunblind_line_wooden.jpg",
+        "title": "Linea WOODEN"
+    },
+    {
+        "header": "Linea BLACKOUT",
+        "info": "*Completa obscuridad Room Darkening. \n*Tejido cerrado. \n*Ideal para ambientes de descanso. \nrecamara o sala-tv",
+        "srcImage": "/images/products/lines/blackout/sunblind_line_blackout.jpg",
+        "title": "Linea BLACKOUT"
+    },
+    {
+        "header": "Linea Control",
+        "info": "*Motorizacion. \n*Mayor comodidad. \n*Simplifica tus tareas diarias, permite disfrutar el momento. \nsala comedor oficina",
+        "srcImage": "/images/products/lines/control/sunblind_line_control.jpg",
+        "title": "Linea Control"
+    }
+]

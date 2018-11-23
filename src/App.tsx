@@ -1,19 +1,22 @@
 import * as React from 'react';
-import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Contact from './components/screens/Contact';
+import Home from './components/screens/Home';
+import ToolBar from './components/ToolBar';
 
-import logo from './logo.svg';
+import './App.css';
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <div className="app">
+        <ToolBar />
+        <BrowserRouter>
+          <div>
+            <Route path="/" exact={true} > <Home /> </Route>
+            <Route path="/contact"  ><Contact /> </Route>
+          </div>
+        </BrowserRouter>
       </div>
     );
   }
